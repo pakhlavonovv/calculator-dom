@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(43, 43, 43);
+    font-family: sans-serif;
+}
+.div{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calc{
+    width: 30%;
+    height: 550px;
+    background-color: transparent;
+    border: 1px solid orange;
+    padding: 40px;
+}
+.calc .calc__title{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 30px;
+    color: orange;
+}
+.calc__wrapper{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.calc__wrapper input{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid orange;
+    padding: 20px;
+    color: white;
+}
+.calc__options{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.calc__options .calc__items{
+    width: 100%;
+    height: 60px;
+    background-color: orange;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.button .btn{
+    width: 50%;
+    height: 46px;
+    background-color: orange;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.form{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
